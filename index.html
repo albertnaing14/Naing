@@ -245,41 +245,117 @@
     </div>
   </section>
 
-  <!-- Projects -->
-  <section id="projects" class="portfolio section">
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Projects</h2>
-      <p>
-        Selected academic, software, web development, and design projects.
-      </p>
+<!-- Projects -->
+<section id="projects" class="portfolio section">
+
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Projects</h2>
+    <p>
+      Selected projects developed through academic work and client-based experience.
+    </p>
+  </div>
+
+  <div class="container">
+
+    <div class="isotope-layout"
+         data-default-filter="*"
+         data-layout="masonry"
+         data-sort="original-order">
+
+      <!-- Project Filters -->
+      <ul class="portfolio-filters isotope-filters"
+          data-aos="fade-up"
+          data-aos-delay="100">
+
+        <li data-filter="*" class="filter-active">All</li>
+        <li data-filter=".filter-web">Web Development</li>
+        <li data-filter=".filter-software">Software</li>
+
+      </ul>
+      <!-- End Project Filters -->
+
+
+      <div class="row gy-4 isotope-container"
+           data-aos="fade-up"
+           data-aos-delay="200">
+
+
+        <!-- Client Website -->
+        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+
+          <div class="portfolio-content h-100">
+
+            <img src="assets/img/portfolio/app-1.jpg"
+                 class="img-fluid"
+                 alt="Aircon Cleaning Client Website">
+
+            <div class="portfolio-info">
+
+              <h4>Client Website</h4>
+
+              <p>
+                Aircon Cleaning Service Website
+              </p>
+
+              <a href="assets/img/portfolio/app-1.png"
+                 title="Client Website - Aircon Cleaning Service"
+                 data-gallery="portfolio-gallery"
+                 class="glightbox preview-link">
+
+                <i class="bi bi-zoom-in"></i>
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!-- End Client Website -->
+
+
+        <!-- Product Management System -->
+        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-software">
+
+          <div class="portfolio-content h-100">
+
+            <img src="assets/img/portfolio/app-2.png"
+                 class="img-fluid"
+                 alt="Product Management System">
+
+            <div class="portfolio-info">
+
+              <h4>Product Management System</h4>
+
+              <p>
+                Java • MySQL • JDBC
+              </p>
+
+              <a href="assets/img/portfolio/app-2.jpg"
+                 title="Product Management System"
+                 data-gallery="portfolio-gallery"
+                 class="glightbox preview-link">
+
+                <i class="bi bi-zoom-in"></i>
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!-- End Product Management System -->
+
+
+      </div>
+
     </div>
 
-    <div class="container">
-      <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+  </div>
 
-        <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-software">Software</li>
-          <li data-filter=".filter-web">Web</li>
-          <li data-filter=".filter-design">3D / Design</li>
-          <li data-filter=".filter-academic">Academic</li>
-        </ul>
-
-        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-          <!-- Software Project -->
-          <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-software">
-            <div class="portfolio-content h-100">
-              <img src="img/portfolio/app-1.jpg" class="img-fluid" alt="Product Management System">
-              <div class="portfolio-info">
-                <h4>Product Management System</h4>
-                <p>Java, Java Swing, MySQL & JDBC</p>
-                <a href="img/portfolio/app-1.jpg" title="Product Management System" data-gallery="portfolio-gallery" class="glightbox preview-link">
-                  <i class="bi bi-zoom-in"></i>
-                </a>
-              </div>
-            </div>
-          </div>
+</section>
+<!-- /Projects -->
 
           <!-- Web Project -->
           <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
