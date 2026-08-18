@@ -4,543 +4,570 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Albert Krian D. Naing | Computer Science Student</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
 
-  <!-- Favicons -->
+  <title>Albert Krian D. Naing | Computer Science Student</title>
+  <meta name="description" content="Portfolio of Albert Krian D. Naing, a Computer Science student seeking a practicum opportunity.">
+  <meta name="keywords" content="Albert Krian D. Naing, Computer Science, portfolio, practicum, Java, MySQL, web development">
+
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="vendor/aos/aos.css" rel="stylesheet">
   <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: iPortfolio
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <style>
+    .portfolio-info h4 { margin-bottom: 5px; }
+    .portfolio-info p { margin-bottom: 0; }
+    .skill-card {
+      height: 100%;
+      padding: 28px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,.06);
+    }
+    .skill-card h3 {
+      font-size: 20px;
+      margin-bottom: 18px;
+    }
+    .skill-card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .skill-card li {
+      padding: 9px 0;
+      border-bottom: 1px solid rgba(0,0,0,.08);
+    }
+    .skill-card li:last-child { border-bottom: 0; }
+    .skill-card li i { margin-right: 8px; }
+    .achievement-card {
+      padding: 30px;
+      height: 100%;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,.06);
+    }
+    .achievement-card i {
+      font-size: 30px;
+      margin-bottom: 15px;
+      display: inline-block;
+    }
+    .project-tech {
+      font-size: 13px;
+      font-weight: 600;
+      margin-top: 12px;
+    }
+    .contact-card {
+      padding: 25px;
+      background: #fff;
+      border-radius: 10px;
+      height: 100%;
+      box-shadow: 0 4px 20px rgba(0,0,0,.06);
+    }
+  </style>
 </head>
 
 <body class="index-page">
 
-  <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
+<header id="header" class="header dark-background d-flex flex-column">
+  <i class="header-toggle d-xl-none bi bi-list"></i>
 
-    <div class="profile-img">
-      <img src="img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+  <div class="profile-img">
+    <img src="img/my-profile-img.jpg" alt="Albert Krian D. Naing" class="img-fluid rounded-circle">
+  </div>
+
+  <a href="#hero" class="logo d-flex align-items-center justify-content-center">
+    <h1 class="sitename">Albert Krian D. Naing</h1>
+  </a>
+
+  <div class="social-links text-center">
+    <!-- Replace # with your real social/profile links when ready -->
+    <a href="#" class="github" aria-label="GitHub"><i class="bi bi-github"></i></a>
+    <a href="#" class="linkedin" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+  </div>
+
+  <nav id="navmenu" class="navmenu">
+    <ul>
+      <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i> Home</a></li>
+      <li><a href="#about"><i class="bi bi-person navicon"></i> About Me</a></li>
+      <li><a href="#skills"><i class="bi bi-code-slash navicon"></i> Skills</a></li>
+      <li><a href="#projects"><i class="bi bi-folder navicon"></i> Projects</a></li>
+      <li><a href="#achievements"><i class="bi bi-trophy navicon"></i> Achievements</a></li>
+      <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+      <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="main">
+
+  <!-- Hero -->
+  <section id="hero" class="hero section dark-background">
+    <img src="img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <h2>Albert Krian D. Naing</h2>
+      <p>
+        Computer Science Student —
+        <span class="typed" data-typed-items="Aspiring Developer, Problem Solver, Web Developer, Lifelong Learner">Aspiring Developer</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about section">
+    <div class="container section-title" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p>
+        Computer Science student with a strong interest in problem-solving, logical thinking,
+        software development, and continuous learning.
+      </p>
     </div>
 
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="img/logo.png" alt=""> -->
-      <h1 class="sitename">Albert Krian D. Naing</h1>
-    </a>
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4 justify-content-center">
+        <div class="col-lg-4">
+          <img src="img/my-profile-img.jpg" class="img-fluid" alt="Albert Krian D. Naing">
+        </div>
 
-    <div class="social-links text-center">
-      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-    </div>
+        <div class="col-lg-8 content">
+          <h2>Computer Science Student</h2>
 
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="#">Dropdown 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <p>
+            I am a Computer Science student at Mabini Colleges, Inc. who enjoys solving problems
+            and learning how things work. My interest in problem-solving started at a young age
+            through puzzles, chess, and Rubik's Cube.
+          </p>
+
+          <p>
+            These interests helped me develop patience, logical thinking, and persistence when
+            facing challenging problems. I am continuously developing my skills in programming,
+            web development, and database management through academic and personal projects.
+          </p>
+
+          <p>
+            I am still growing as a programmer, but I enjoy learning new concepts and challenging
+            myself to improve. I am comfortable working independently while also being able to
+            collaborate with others when a project requires teamwork.
+          </p>
+
+          <p>
+            I am currently seeking a practicum opportunity where I can gain real-world experience,
+            strengthen my technical skills, and contribute to meaningful projects.
+          </p>
+
+          <div class="row mt-4">
+            <div class="col-lg-6">
               <ul>
-                <li><a href="#">Deep Dropdown 1</a></li>
-                <li><a href="#">Deep Dropdown 2</a></li>
-                <li><a href="#">Deep Dropdown 3</a></li>
-                <li><a href="#">Deep Dropdown 4</a></li>
-                <li><a href="#">Deep Dropdown 5</a></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BS Computer Science</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>School:</strong> <span>Mabini Colleges, Inc.</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span>Daet, Camarines Norte</span></li>
               </ul>
-            </li>
-            <li><a href="#">Dropdown 2</a></li>
-            <li><a href="#">Dropdown 3</a></li>
-            <li><a href="#">Dropdown 4</a></li>
-          </ul>
-        </li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
-      </ul>
-    </nav>
-
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->    
-    <section id="about" class="about section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>I'm Albert Krian D. Naing, a Computer Science student at Mabini Colleges, Inc. I have always enjoyed solving problems, from puzzles and Rubik's Cubes to chess. These interests helped develop my patience, logical thinking, and persistence when facing challenging problems.
-
-As a Computer Science student, I am continuously developing my skills in programming, web development, and database management through academic and personal projects. While I am still growing as a programmer, I enjoy learning new concepts and challenging myself to improve.
-
-I am comfortable working independently, while also being able to collaborate with others when a project requires teamwork. I am currently seeking a practicum opportunity where I can gain real-world experience, strengthen my technical skills, and contribute to meaningful projects.
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4">
-            <img src="img/my-profile-img.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>albertnaing22@gmail.com</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>09686172063</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Status:</strong> <span>Seeking Practicum</span></li>
+              </ul>
+            </div>
           </div>
-          <div class="col-lg-8 content">
-            <h2>BSCS Student</h2>
-            <p class="fst-italic py-3">
-              Hi! I'm Albert, currently a student in Mabini Colleges, Inc. this portfolio is for our major subject CS Elective 1 : Geometric Modelling
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://albertnaing14.github.io/Naing/</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+639686172063</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Daet, Camarines Norte</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>albertnaing22@gmail.com</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills section light-background">
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Skills</h2>
+      <p>
+        Skills developed through coursework, projects, and independent learning.
+      </p>
+    </div>
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4">
+
+        <div class="col-lg-4">
+          <div class="skill-card">
+            <h3><i class="bi bi-code-square"></i> Programming & Development</h3>
+            <ul>
+              <li><i class="bi bi-check2"></i> Java</li>
+              <li><i class="bi bi-check2"></i> HTML</li>
+              <li><i class="bi bi-check2"></i> CSS</li>
+              <li><i class="bi bi-check2"></i> JavaScript — Basic</li>
+              <li><i class="bi bi-check2"></i> SQL / MySQL</li>
+              <li><i class="bi bi-check2"></i> Java Swing</li>
+              <li><i class="bi bi-check2"></i> JDBC</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="skill-card">
+            <h3><i class="bi bi-tools"></i> Tools</h3>
+            <ul>
+              <li><i class="bi bi-check2"></i> NetBeans</li>
+              <li><i class="bi bi-check2"></i> Visual Studio Code</li>
+              <li><i class="bi bi-check2"></i> XAMPP</li>
+              <li><i class="bi bi-check2"></i> Git / GitHub</li>
+              <li><i class="bi bi-check2"></i> Microsoft Office</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="skill-card">
+            <h3><i class="bi bi-lightbulb"></i> Core Strengths</h3>
+            <ul>
+              <li><i class="bi bi-check2"></i> Problem Solving</li>
+              <li><i class="bi bi-check2"></i> Logical & Analytical Thinking</li>
+              <li><i class="bi bi-check2"></i> Persistence</li>
+              <li><i class="bi bi-check2"></i> Independent Work</li>
+              <li><i class="bi bi-check2"></i> Team Collaboration</li>
+              <li><i class="bi bi-check2"></i> Adaptability</li>
+              <li><i class="bi bi-check2"></i> Willingness to Learn</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="portfolio section">
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Projects</h2>
+      <p>
+        Selected academic, software, web development, and design projects.
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+        <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-software">Software</li>
+          <li data-filter=".filter-web">Web</li>
+          <li data-filter=".filter-design">3D / Design</li>
+          <li data-filter=".filter-academic">Academic</li>
+        </ul>
+
+        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- Software Project -->
+          <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-software">
+            <div class="portfolio-content h-100">
+              <img src="img/portfolio/app-1.jpg" class="img-fluid" alt="Product Management System">
+              <div class="portfolio-info">
+                <h4>Product Management System</h4>
+                <p>Java, Java Swing, MySQL & JDBC</p>
+                <a href="img/portfolio/app-1.jpg" title="Product Management System" data-gallery="portfolio-gallery" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
               </div>
             </div>
-            <p class="py-3">
-              This is for education purpose only.
-            </p>
+          </div>
+
+          <!-- Web Project -->
+          <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+            <div class="portfolio-content h-100">
+              <img src="img/portfolio/product-1.jpg" class="img-fluid" alt="Client Website">
+              <div class="portfolio-info">
+                <h4>Client Website</h4>
+                <p>Web Design & Development</p>
+                <a href="img/portfolio/product-1.jpg" title="Client Website" data-gallery="portfolio-gallery" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Academic / Geometric Modelling -->
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-academic">
+            <div class="portfolio-content h-100">
+              <img src="img/portfolio/app-3.jpg" class="img-fluid" alt="One Point Perspective">
+              <div class="portfolio-info">
+                <h4>One Point Perspective</h4>
+                <p>Geometric Modelling</p>
+                <a href="img/portfolio/app-3.jpg" title="One Point Perspective" data-gallery="portfolio-gallery" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-academic">
+            <div class="portfolio-content h-100">
+              <img src="img/portfolio/app-4.jpg" class="img-fluid" alt="Two Point Perspective">
+              <div class="portfolio-info">
+                <h4>Two Point Perspective</h4>
+                <p>Geometric Modelling</p>
+                <a href="img/portfolio/app-4.jpg" title="Two Point Perspective" data-gallery="portfolio-gallery" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-academic">
+            <div class="portfolio-content h-100">
+              <img src="img/portfolio/app-5.jpg" class="img-fluid" alt="Three Point Perspective">
+              <div class="portfolio-info">
+                <h4>Three Point Perspective</h4>
+                <p>Geometric Modelling</p>
+                <a href="img/portfolio/app-5.jpg" title="Three Point Perspective" data-gallery="portfolio-gallery" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+            <div class="portfolio-content h-100">
+              <img src="img/portfolio/product-5.jpg" class="img-fluid" alt="Digital Modern House">
+              <div class="portfolio-info">
+                <h4>Digital Modern House</h4>
+                <p>Digital Drawing & Perspective</p>
+                <a href="img/portfolio/product-5.jpg" title="Digital Modern House" data-gallery="portfolio-gallery" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+            <div class="portfolio-content h-100">
+              <img src="img/portfolio/branding-2.png" class="img-fluid" alt="Tinkercad 3D Modern House">
+              <div class="portfolio-info">
+                <h4>3D Modern House</h4>
+                <p>Tinkercad</p>
+                <a href="img/portfolio/branding-2.png" title="3D Modern House" data-gallery="portfolio-gallery" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+            <div class="portfolio-content h-100">
+              <img src="img/portfolio/branding-3.jpg" class="img-fluid" alt="Tinkercad 3D Model">
+              <div class="portfolio-info">
+                <h4>Tinkercad Project</h4>
+                <p>3D Modelling</p>
+                <a href="img/portfolio/branding-3.jpg" title="Tinkercad Project" data-gallery="portfolio-gallery" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-academic">
+            <div class="portfolio-content h-100">
+              <img src="img/portfolio/book-1.png" class="img-fluid" alt="Final Project">
+              <div class="portfolio-info">
+                <h4>Final Project</h4>
+                <p>Geometric Modelling</p>
+                <a href="img/portfolio/book-1.png" title="Final Project" data-gallery="portfolio-gallery" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="services section light-background">
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Achievements</h2>
+      <p>Academic and extracurricular achievements that reflect my interests and strengths.</p>
+    </div>
+
+    <div class="container">
+      <div class="row gy-4">
+
+        <div class="col-lg-6">
+          <div class="achievement-card">
+            <i class="bi bi-trophy"></i>
+            <h3>Chess Champion</h3>
+            <p><strong>ACLC College of Daet — Intramurals, 2024</strong></p>
+            <p>Achieved first place in a school chess competition, demonstrating strategic thinking, concentration, and problem-solving.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="achievement-card">
+            <i class="bi bi-trophy"></i>
+            <h3>Rubik's Cube Champion</h3>
+            <p><strong>Mabini Colleges, Inc. — College Days, 2025</strong></p>
+            <p>Achieved first place in a school Rubik's Cube competition, demonstrating logical thinking, patience, and persistence.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="achievement-card">
+            <i class="bi bi-mortarboard"></i>
+            <h3>Honor Student</h3>
+            <p><strong>ACLC College of Daet — 2022–2024</strong></p>
+            <p>Recognized for strong academic performance throughout Senior High School.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="achievement-card">
+            <i class="bi bi-award"></i>
+            <h3>Dean's List Applicant</h3>
+            <p><strong>Mabini Colleges, Inc. — 1st Semester, AY 2026–2027</strong></p>
+            <p>Applied for Dean's List recognition based on academic performance.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="resume section">
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Resume</h2>
+      <p>A summary of my education, experience, skills, and qualifications.</p>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h3 class="resume-title">Education</h3>
+
+          <div class="resume-item">
+            <h4>Bachelor of Science in Computer Science</h4>
+            <h5>2024 – Present</h5>
+            <p><em>Mabini Colleges, Inc.</em></p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Senior High School — TVL-ICT</h4>
+            <h5>2022 – 2024</h5>
+            <p><em>ACLC College of Daet</em></p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Junior High School</h4>
+            <h5>2018 – 2022</h5>
+            <p><em>Moreno Integrated School</em></p>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <h3 class="resume-title">Experience</h3>
+
+          <div class="resume-item">
+            <h4>Project-Based Web Designer</h4>
+            <h5>2025 – 2026</h5>
+            <ul>
+              <li>Developed a website based on client requirements and business needs.</li>
+              <li>Organized website content to improve usability and presentation.</li>
+              <li>Applied HTML, CSS, and web development principles.</li>
+              <li>Adjusted the website based on client feedback and requirements.</li>
+            </ul>
           </div>
         </div>
 
       </div>
 
-    </section><!-- /About Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
+      <div class="text-center mt-4">
+        <!-- Put your actual resume PDF filename here when ready -->
+        <a href="resume.pdf" class="btn btn-primary" target="_blank">
+          <i class="bi bi-file-earmark-pdf"></i> View Full Resume
+        </a>
       </div>
+    </div>
+  </section>
 
-    </section><!-- /Stats Section -->
+  <!-- Contact -->
+  <section id="contact" class="contact section light-background">
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p>I'm open to practicum opportunities and professional learning experiences.</p>
+    </div>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills section light-background">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p> </p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row skills-content skills-animation">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
+        <div class="col-lg-4">
+          <div class="contact-card">
+            <i class="bi bi-geo-alt"></i>
+            <h3>Location</h3>
+            <p>Daet, Camarines Norte, Philippines</p>
           </div>
+        </div>
 
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>WordPress/CMS</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
+        <div class="col-lg-4">
+          <div class="contact-card">
+            <i class="bi bi-envelope"></i>
+            <h3>Email</h3>
+            <p><a href="mailto:albertnaing22@gmail.com">albertnaing22@gmail.com</a></p>
           </div>
-
         </div>
 
-      </div>
-
-    </section><!-- /Skills Section -->
-
-   
-     
+        <div class="col-lg-4">
+          <div class="contact-card">
+            <i class="bi bi-phone"></i>
+            <h3>Phone</h3>
+            <p>09686172063</p>
           </div>
-
         </div>
 
       </div>
+    </div>
+  </section>
 
-    </section><!-- /Resume Section -->
+</main>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section light-background">
+<footer id="footer" class="footer position-relative light-background">
+  <div class="container">
+    <div class="copyright text-center">
+      <p>© <span>2026</span> <strong class="px-1 sitename">Albert Krian D. Naing</strong> All Rights Reserved</p>
+    </div>
+    <div class="credits text-center">
+      Portfolio for academic and practicum purposes.
+    </div>
+  </div>
+</footer>
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>This are My Work</p>
-      </div><!-- End Section Title -->
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+  <i class="bi bi-arrow-up-short"></i>
+</a>
 
-      <div class="container">
+<div id="preloader"></div>
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Premid</li>
-            <li data-filter=".filter-product">Midterm</li>
-            <li data-filter=".filter-branding">Pre-Final</li>
-            <li data-filter=".filter-books">Finals</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/app-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Shapes and Form 101</h4>
-                  <p>First Image</p>
-                  <a href="img/portfolio/app-1.jpg" title="Shapes and Form 101" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/app-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Shapes and Form 101</h4>
-                  <p>Second Image</p>
-                  <a href="img/portfolio/app-2.jpg" title="Shapes and Form 101" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/app-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Activity 102 (Working with Vanishing Points)</h4>
-                  <p>One Point Perspective</p>
-                  <a href="img/portfolio/app-3.jpg" title="One Point Perspective" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-   <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/app-4.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Activity 102 (Working with Vanishing Points)</h4>
-                  <p>Two Point Perspective</p>
-                  <a href="img/portfolio/app-4.jpg" title="Two Point Perspective" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-   <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/app-5.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Activity 102 (Working with Vanishing Points)</h4>
-                  <p>Three Point Perspective</p>
-                  <a href="img/portfolio/app-5.jpg" title="Three Point Perspective" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-   <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/app-6.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Activity 103 (Constructing Basic Forms , Division & Multiplication)</h4>
-                  <p>One Point Perspective</p>
-                  <a href="img/portfolio/app-6.jpg" title="One Point Perspective" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/app-7.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Activity 103 (Constructing Basic Forms , Division & Multiplication)</h4>
-                  <p>Two Point Perspective</p>
-                  <a href="img/portfolio/app-7.jpg" title="Two Point Perspective" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/app-8.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Activity 103 (Constructing Basic Forms , Division & Multiplication)</h4>
-                  <p>Three Point Perspective</p>
-                  <a href="img/portfolio/app-8.jpg" title="Three Point Perspective" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/app-9.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Activity 104 (Constructing Basic Forms , Division & Multiplication)</h4>
-                  <p>Car</p>
-                  <a href="img/portfolio/app-9.jpg" title="Car" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/product-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Activity 104 (Draw a Modern House )</h4>
-                  <p>Modern House</p>
-                  <a href="img/portfolio/product-1.jpg" title="Modern House" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/product-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Activity 105 : Digital Drawing (Perspective Drawing 1,2 and 3)</h4>
-                  <p>One Point Perspective</p>
-                  <a href="img/portfolio/product-2.jpg" title="One Point Perspective" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/product-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Activity 105 : Digital Drawing (Perspective Drawing 1,2 and 3)</h4>
-                  <p>Two Point Perspective</p>
-                  <a href="img/portfolio/product-3.jpg" title="Two Point Perspective" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/product-4.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Activity 105 : Digital Drawing (Perspective Drawing 1,2 and 3)</h4>
-                  <p>Three Point Perspective</p>
-                  <a href="img/portfolio/product-4.jpg" title="Three Point Perspective" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/product-5.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Activity 106 : Digital Drawing (Modern House)</h4>
-                  <p>Digital Modern House</p>
-                  <a href="img/portfolio/product-5.jpg" title="Digital Modern House" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/branding-1.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Tinkercad</h4>
-                  <p>Tutorials</p>
-                  <a href="img/portfolio/branding-1.png" title="Tutorials" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/branding-2.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Tinkercad</h4>
-                  <p>3D Modern House</p>
-                  <a href="img/portfolio/branding-2.png" title="3D Modern House" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Tinkercad</h4>
-                  <p>3D Modern House</p>
-                  <a href="img/portfolio/branding-3.jpg" title="3D Modern House" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="img/portfolio/book-1.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Finals</h4>
-                  <p>Final Project</p>
-                  <a href="img/portfolio/book-1.png" title="Final Project" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-
-            
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-  
-
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="vendor/php-email-form/validate.js"></script>
-  <script src="vendor/aos/aos.js"></script>
-  <script src="vendor/typed.js/typed.umd.js"></script>
-  <script src="vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="js/main.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/php-email-form/validate.js"></script>
+<script src="vendor/aos/aos.js"></script>
+<script src="vendor/typed.js/typed.umd.js"></script>
+<script src="vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="vendor/waypoints/noframework.waypoints.js"></script>
+<script src="vendor/glightbox/js/glightbox.min.js"></script>
+<script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="vendor/swiper/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
 
 </body>
-
 </html>
