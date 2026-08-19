@@ -5,289 +5,756 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Albert Krian D. Naing | Computer Science Student</title>
-  <meta name="description" content="Portfolio of Albert Krian D. Naing, a Computer Science student seeking a practicum opportunity.">
-  <meta name="keywords" content="Albert Krian D. Naing, Computer Science, portfolio, practicum, Java, MySQL, web development">
+  <title>Albert Krian D. Naing | Aspiring Data Analyst</title>
+
+  <meta name="description"
+    content="Portfolio of Albert Krian D. Naing, a Computer Science student seeking a Data Analyst practicum opportunity.">
+
+  <meta name="keywords"
+    content="Albert Krian D. Naing, Data Analyst, Computer Science, SQL, MySQL, Excel, Data Analysis, Practicum, Portfolio">
 
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="vendor/aos/aos.css" rel="stylesheet">
   <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!-- Main CSS -->
   <link href="css/style.css" rel="stylesheet">
 
   <style>
-    .portfolio-info h4 { margin-bottom: 5px; }
-    .portfolio-info p { margin-bottom: 0; }
+
+    /* ==============================
+       GENERAL CUSTOM STYLES
+    ============================== */
+
+    .portfolio-info h4 {
+      margin-bottom: 5px;
+    }
+
+    .portfolio-info p {
+      margin-bottom: 0;
+    }
+
+    /* ==============================
+       SKILL CARDS
+    ============================== */
+
     .skill-card {
       height: 100%;
       padding: 28px;
       background: #fff;
       border-radius: 10px;
-      box-shadow: 0 4px 20px rgba(0,0,0,.06);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, .06);
     }
+
     .skill-card h3 {
       font-size: 20px;
       margin-bottom: 18px;
     }
+
     .skill-card ul {
       list-style: none;
       padding: 0;
       margin: 0;
     }
+
     .skill-card li {
       padding: 9px 0;
-      border-bottom: 1px solid rgba(0,0,0,.08);
+      border-bottom: 1px solid rgba(0, 0, 0, .08);
     }
-    .skill-card li:last-child { border-bottom: 0; }
-    .skill-card li i { margin-right: 8px; }
+
+    .skill-card li:last-child {
+      border-bottom: 0;
+    }
+
+    .skill-card li i {
+      margin-right: 8px;
+    }
+
+    /* ==============================
+       ACHIEVEMENT CARDS
+    ============================== */
+
     .achievement-card {
       padding: 30px;
       height: 100%;
       background: #fff;
       border-radius: 10px;
-      box-shadow: 0 4px 20px rgba(0,0,0,.06);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, .06);
     }
+
     .achievement-card i {
       font-size: 30px;
       margin-bottom: 15px;
       display: inline-block;
     }
+
+    /* ==============================
+       PROJECT TECHNOLOGY
+    ============================== */
+
     .project-tech {
       font-size: 13px;
       font-weight: 600;
       margin-top: 12px;
     }
+
+    /* ==============================
+       CONTACT CARDS
+    ============================== */
+
     .contact-card {
       padding: 25px;
       background: #fff;
       border-radius: 10px;
       height: 100%;
-      box-shadow: 0 4px 20px rgba(0,0,0,.06);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, .06);
     }
+
+    /* ==============================
+       DATA ANALYST BADGE
+    ============================== */
+
+    .data-badge {
+      display: inline-block;
+      padding: 6px 14px;
+      margin-top: 15px;
+      border-radius: 20px;
+      background: rgba(20, 157, 221, 0.1);
+      color: #149ddd;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    /* ==============================
+       HERO TEXT
+    ============================== */
+
+    .hero .hero-subtitle {
+      max-width: 700px;
+      margin-top: 15px;
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
   </style>
+
 </head>
+
 
 <body class="index-page">
 
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
+
 <header id="header" class="header dark-background d-flex flex-column">
+
   <i class="header-toggle d-xl-none bi bi-list"></i>
 
+  <!-- Profile Image -->
   <div class="profile-img">
-    <img src="img/my-profile-img.jpg" alt="Albert Krian D. Naing" class="img-fluid rounded-circle">
+    <img src="img/my-profile-img.jpg"
+         alt="Albert Krian D. Naing"
+         class="img-fluid rounded-circle">
   </div>
 
-  <a href="#hero" class="logo d-flex align-items-center justify-content-center">
-    <h1 class="sitename">Albert Krian D. Naing</h1>
+  <!-- Name -->
+  <a href="#hero"
+     class="logo d-flex align-items-center justify-content-center">
+
+    <h1 class="sitename">
+      Albert Krian D. Naing
+    </h1>
+
   </a>
 
+  <!-- Social Links -->
   <div class="social-links text-center">
-    <!-- Replace # with your real social/profile links when ready -->
-    <a href="#" class="github" aria-label="GitHub"><i class="bi bi-github"></i></a>
-    <a href="#" class="linkedin" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+
+    <!-- Replace # with your actual links -->
+    <a href="#"
+       class="github"
+       aria-label="GitHub">
+
+      <i class="bi bi-github"></i>
+
+    </a>
+
+    <a href="#"
+       class="linkedin"
+       aria-label="LinkedIn">
+
+      <i class="bi bi-linkedin"></i>
+
+    </a>
+
   </div>
 
+
+  <!-- Navigation -->
   <nav id="navmenu" class="navmenu">
+
     <ul>
-      <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i> Home</a></li>
-      <li><a href="#about"><i class="bi bi-person navicon"></i> About Me</a></li>
-      <li><a href="#skills"><i class="bi bi-code-slash navicon"></i> Skills</a></li>
-      <li><a href="#projects"><i class="bi bi-folder navicon"></i> Projects</a></li>
+
       <li>
-  <a href="#achievements">
-    <i class="bi bi-trophy navicon"></i> Achievements
-  </a>
-</li>
+        <a href="#hero" class="active">
+          <i class="bi bi-house navicon"></i>
+          Home
+        </a>
+      </li>
 
-<li>
-  <a href="#certificates">
-    <i class="bi bi-award navicon"></i> Certificates
-  </a>
-</li>
+      <li>
+        <a href="#about">
+          <i class="bi bi-person navicon"></i>
+          About Me
+        </a>
+      </li>
 
-<li>
-  <a href="#resume">
-    <i class="bi bi-file-earmark-text navicon"></i> Resume
-  </a>
-</li>
-      <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      <li>
+        <a href="#skills">
+          <i class="bi bi-bar-chart navicon"></i>
+          Skills
+        </a>
+      </li>
+
+      <li>
+        <a href="#projects">
+          <i class="bi bi-folder navicon"></i>
+          Projects
+        </a>
+      </li>
+
+      <li>
+        <a href="#achievements">
+          <i class="bi bi-trophy navicon"></i>
+          Achievements
+        </a>
+      </li>
+
+      <li>
+        <a href="#certificates">
+          <i class="bi bi-award navicon"></i>
+          Certificates
+        </a>
+      </li>
+
+      <li>
+        <a href="#resume">
+          <i class="bi bi-file-earmark-text navicon"></i>
+          Resume
+        </a>
+      </li>
+
+      <li>
+        <a href="#contact">
+          <i class="bi bi-envelope navicon"></i>
+          Contact
+        </a>
+      </li>
+
     </ul>
+
   </nav>
+
 </header>
+
+
+<!-- =========================================================
+     MAIN
+========================================================= -->
 
 <main class="main">
 
-  <!-- Hero -->
-  <section id="hero" class="hero section dark-background">
-    <img src="img/hero-bg.jpg" alt="" data-aos="fade-in">
 
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-      <h2>Albert Krian D. Naing</h2>
-      <p>
-        Computer Science Student —
-        <span class="typed" data-typed-items="Aspiring Developer, Problem Solver, Web Developer, Lifelong Learner">Aspiring Developer</span>
-      </p>
-    </div>
-  </section>
+<!-- =========================================================
+     HERO
+========================================================= -->
 
-  <!-- About -->
-  <section id="about" class="about section">
-    <div class="container section-title" data-aos="fade-up">
-      <h2>About Me</h2>
-      <p>
-        Computer Science student with a strong interest in problem-solving, logical thinking,
-        software development, and continuous learning.
-      </p>
-    </div>
+<section id="hero"
+         class="hero section dark-background">
 
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-      <div class="row gy-4 justify-content-center">
-        <div class="col-lg-4">
-          <img src="img/my-profile-img.jpg" class="img-fluid" alt="Albert Krian D. Naing">
-        </div>
+  <img src="img/hero-bg.jpg"
+       alt=""
+       data-aos="fade-in">
 
-        <div class="col-lg-8 content">
-          <h2>Computer Science Student</h2>
 
-          <p>
-            I am a Computer Science student at Mabini Colleges, Inc. who enjoys solving problems
-            and learning how things work. My interest in problem-solving started at a young age
-            through puzzles, chess, and Rubik's Cube.
-          </p>
+  <div class="container"
+       data-aos="fade-up"
+       data-aos-delay="100">
 
-          <p>
-            These interests helped me develop patience, logical thinking, and persistence when
-            facing challenging problems. I am continuously developing my skills in programming,
-            web development, and database management through academic and personal projects.
-          </p>
+    <h2>
+      Albert Krian D. Naing
+    </h2>
 
-          <p>
-            I am still growing as a programmer, but I enjoy learning new concepts and challenging
-            myself to improve. I am comfortable working independently while also being able to
-            collaborate with others when a project requires teamwork.
-          </p>
 
-          <p>
-            I am currently seeking a practicum opportunity where I can gain real-world experience,
-            strengthen my technical skills, and contribute to meaningful projects.
-          </p>
-
-          <div class="row mt-4">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BS Computer Science</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>School:</strong> <span>Mabini Colleges, Inc.</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span>Daet, Camarines Norte</span></li>
-              </ul>
-            </div>
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>albertnaing22@gmail.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>09686172063</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Status:</strong> <span>Seeking Practicum</span></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills -->
-  <section id="skills" class="skills section light-background">
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Skills</h2>
-      <p>
-        Skills developed through coursework, projects, and independent learning.
-      </p>
-    </div>
-
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-      <div class="row gy-4">
-
-        <div class="col-lg-4">
-          <div class="skill-card">
-            <h3><i class="bi bi-code-square"></i> Programming & Development</h3>
-            <ul>
-              <li><i class="bi bi-check2"></i> Java</li>
-              <li><i class="bi bi-check2"></i> HTML</li>
-              <li><i class="bi bi-check2"></i> CSS</li>
-              <li><i class="bi bi-check2"></i> JavaScript — Basic</li>
-              <li><i class="bi bi-check2"></i> SQL / MySQL</li>
-              <li><i class="bi bi-check2"></i> Java Swing</li>
-              <li><i class="bi bi-check2"></i> JDBC</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="skill-card">
-            <h3><i class="bi bi-tools"></i> Tools</h3>
-            <ul>
-              <li><i class="bi bi-check2"></i> NetBeans</li>
-              <li><i class="bi bi-check2"></i> Visual Studio Code</li>
-              <li><i class="bi bi-check2"></i> XAMPP</li>
-              <li><i class="bi bi-check2"></i> Git / GitHub</li>
-              <li><i class="bi bi-check2"></i> Microsoft Office</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="skill-card">
-            <h3><i class="bi bi-lightbulb"></i> Core Strengths</h3>
-            <ul>
-              <li><i class="bi bi-check2"></i> Problem Solving</li>
-              <li><i class="bi bi-check2"></i> Logical & Analytical Thinking</li>
-              <li><i class="bi bi-check2"></i> Persistence</li>
-              <li><i class="bi bi-check2"></i> Independent Work</li>
-              <li><i class="bi bi-check2"></i> Team Collaboration</li>
-              <li><i class="bi bi-check2"></i> Adaptability</li>
-              <li><i class="bi bi-check2"></i> Willingness to Learn</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-<!-- Projects -->
-<section id="projects" class="portfolio section">
-
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Projects</h2>
     <p>
-      Selected projects developed through academic work and client-based experience.
+
+      Computer Science Student —
+
+      <span class="typed"
+            data-typed-items="Aspiring Data Analyst, SQL & Database Enthusiast, Analytical Problem Solver, Data-Driven Learner">
+
+        Aspiring Data Analyst
+
+      </span>
+
     </p>
+
+
+    <p class="hero-subtitle">
+
+      Seeking a practicum opportunity where I can apply my
+      skills in data analysis, SQL, Excel, databases, and
+      problem-solving while gaining real-world experience.
+
+    </p>
+
+
+    <span class="data-badge">
+
+      <i class="bi bi-bar-chart-line"></i>
+      Interested in Data Analytics
+
+    </span>
+
   </div>
 
+</section>
+
+
+<!-- =========================================================
+     ABOUT
+========================================================= -->
+
+<section id="about"
+         class="about section">
+
+
+  <div class="container section-title"
+       data-aos="fade-up">
+
+    <h2>
+      About Me
+    </h2>
+
+    <p>
+
+      Computer Science student with a growing interest in
+      data analysis, SQL, databases, and using data to
+      understand problems and support better decisions.
+
+    </p>
+
+  </div>
+
+
+  <div class="container"
+       data-aos="fade-up"
+       data-aos-delay="100">
+
+
+    <div class="row gy-4 justify-content-center">
+
+
+      <!-- Profile Image -->
+      <div class="col-lg-4">
+
+        <img src="img/my-profile-img.jpg"
+             class="img-fluid"
+             alt="Albert Krian D. Naing">
+
+      </div>
+
+
+      <!-- About Content -->
+      <div class="col-lg-8 content">
+
+
+        <h2>
+          Computer Science Student &amp; Aspiring Data Analyst
+        </h2>
+
+
+        <p>
+
+          I am a Computer Science student at Mabini Colleges,
+          Inc. with a growing interest in data analysis, SQL,
+          database management, and using data to understand
+          problems and support decision-making.
+
+        </p>
+
+
+        <p>
+
+          My background in Computer Science has helped me
+          develop logical thinking, problem-solving, and
+          programming skills. Through my academic projects,
+          I have gained experience working with databases,
+          SQL/MySQL, Java, and structured information.
+
+        </p>
+
+
+        <p>
+
+          I am particularly interested in learning how raw
+          data can be organized, analyzed, and transformed
+          into useful information. I am currently strengthening
+          my skills in SQL, Excel, data analysis, and data
+          visualization through coursework and independent
+          learning.
+
+        </p>
+
+
+        <p>
+
+          I am seeking a practicum opportunity where I can
+          apply what I have learned, gain hands-on experience
+          working with real-world data, and learn from
+          professionals in a data-focused environment.
+
+        </p>
+
+
+        <!-- Personal Information -->
+        <div class="row mt-4">
+
+
+          <div class="col-lg-6">
+
+            <ul>
+
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <strong>Degree:</strong>
+                <span>BS Computer Science</span>
+              </li>
+
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <strong>School:</strong>
+                <span>Mabini Colleges, Inc.</span>
+              </li>
+
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <strong>Location:</strong>
+                <span>Daet, Camarines Norte</span>
+              </li>
+
+            </ul>
+
+          </div>
+
+
+          <div class="col-lg-6">
+
+            <ul>
+
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <strong>Email:</strong>
+                <span>albertnaing22@gmail.com</span>
+              </li>
+
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <strong>Phone:</strong>
+                <span>09686172063</span>
+              </li>
+
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <strong>Target Role:</strong>
+                <span>Data Analyst Practicum</span>
+              </li>
+
+            </ul>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     SKILLS
+========================================================= -->
+
+<section id="skills"
+         class="skills section light-background">
+
+
+  <div class="container section-title"
+       data-aos="fade-up">
+
+    <h2>
+      Skills &amp; Tools
+    </h2>
+
+    <p>
+
+      Technical and analytical skills developed through
+      coursework, projects, and independent learning.
+
+    </p>
+
+  </div>
+
+
+  <div class="container"
+       data-aos="fade-up"
+       data-aos-delay="100">
+
+
+    <div class="row gy-4">
+
+
+      <!-- DATA ANALYSIS -->
+      <div class="col-lg-4">
+
+        <div class="skill-card">
+
+          <h3>
+
+            <i class="bi bi-bar-chart"></i>
+            Data Analysis
+
+          </h3>
+
+
+          <ul>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              Microsoft Excel
+            </li>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              Data Cleaning
+            </li>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              Data Organization
+            </li>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              Basic Data Analysis
+            </li>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              Data Interpretation
+            </li>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              Analytical Thinking
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+
+      <!-- SQL & DATABASES -->
+      <div class="col-lg-4">
+
+        <div class="skill-card">
+
+          <h3>
+
+            <i class="bi bi-database"></i>
+            SQL &amp; Databases
+
+          </h3>
+
+
+          <ul>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              SQL
+            </li>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              MySQL
+            </li>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              Database Management
+            </li>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              CRUD Operations
+            </li>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              Database Design
+            </li>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              JDBC
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+
+      <!-- PROGRAMMING & TOOLS -->
+      <div class="col-lg-4">
+
+        <div class="skill-card">
+
+          <h3>
+
+            <i class="bi bi-tools"></i>
+            Programming &amp; Tools
+
+          </h3>
+
+
+          <ul>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              Java
+            </li>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              HTML &amp; CSS
+            </li>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              JavaScript — Basic
+            </li>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              Visual Studio Code
+            </li>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              NetBeans
+            </li>
+
+            <li>
+              <i class="bi bi-check2"></i>
+              Git / GitHub
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     PROJECTS
+========================================================= -->
+
+<section id="projects"
+         class="portfolio section">
+
+
+  <div class="container section-title"
+       data-aos="fade-up">
+
+    <h2>
+      Projects
+    </h2>
+
+    <p>
+
+      Selected academic and client-based projects demonstrating
+      my programming, database, and problem-solving skills.
+
+    </p>
+
+  </div>
+
+
   <div class="container">
+
 
     <div class="isotope-layout"
          data-default-filter="*"
          data-layout="masonry"
          data-sort="original-order">
 
+
       <!-- Project Filters -->
       <ul class="portfolio-filters isotope-filters"
           data-aos="fade-up"
           data-aos-delay="100">
 
-        <li data-filter="*" class="filter-active">All</li>
-        <li data-filter=".filter-web">Web Development</li>
-        <li data-filter=".filter-software">Software</li>
+        <li data-filter="*"
+            class="filter-active">
+          All
+        </li>
+
+        <li data-filter=".filter-data">
+          Data &amp; Database
+        </li>
+
+        <li data-filter=".filter-web">
+          Web Development
+        </li>
+
+        <li data-filter=".filter-software">
+          Software
+        </li>
 
       </ul>
-      <!-- End Project Filters -->
 
 
       <div class="row gy-4 isotope-container"
@@ -295,56 +762,37 @@
            data-aos-delay="200">
 
 
-        <!-- Client Website -->
-        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+        <!-- =================================================
+             PRODUCT MANAGEMENT SYSTEM
+        ================================================== -->
+
+        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-data filter-software">
+
 
           <div class="portfolio-content h-100">
 
-            <img src="img/portfolio/app-1.png"
-                 class="img-fluid"
-                 alt="Aircon Cleaning Client Website">
-
-            <div class="portfolio-info">
-
-              <h4>Client Website</h4>
-
-              <p>
-                Aircon Cleaning Service Website
-              </p>
-
-              <a href="img/portfolio/app-1.png"
-                 title="Client Website - Aircon Cleaning Service"
-                 data-gallery="portfolio-gallery"
-                 class="glightbox preview-link">
-
-                <i class="bi bi-zoom-in"></i>
-
-              </a>
-
-            </div>
-
-          </div>
-
-        </div>
-        <!-- End Client Website -->
-
-
-        <!-- Product Management System -->
-        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-software">
-
-          <div class="portfolio-content h-100">
 
             <img src="img/portfolio/app-2.png"
                  class="img-fluid"
                  alt="Product Management System">
 
+
             <div class="portfolio-info">
 
-              <h4>Product Management System</h4>
+              <h4>
+                Product Management System
+              </h4>
 
               <p>
-                Java • MySQL • JDBC
+                Database-driven product management application
+                for organizing, searching, updating, and managing
+                structured product records.
               </p>
+
+              <p class="project-tech">
+                MySQL • SQL • Java • JDBC • Database Management
+              </p>
+
 
               <a href="img/portfolio/app-2.png"
                  title="Product Management System"
@@ -360,7 +808,52 @@
           </div>
 
         </div>
-        <!-- End Product Management System -->
+
+
+        <!-- =================================================
+             CLIENT WEBSITE
+        ================================================== -->
+
+        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+
+
+          <div class="portfolio-content h-100">
+
+
+            <img src="img/portfolio/app-1.png"
+                 class="img-fluid"
+                 alt="Aircon Cleaning Client Website">
+
+
+            <div class="portfolio-info">
+
+              <h4>
+                Client Website
+              </h4>
+
+              <p>
+                Aircon Cleaning Service Website
+              </p>
+
+              <p class="project-tech">
+                HTML • CSS • JavaScript • Web Development
+              </p>
+
+
+              <a href="img/portfolio/app-1.png"
+                 title="Client Website - Aircon Cleaning Service"
+                 data-gallery="portfolio-gallery"
+                 class="glightbox preview-link">
+
+                <i class="bi bi-zoom-in"></i>
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
 
 
       </div>
@@ -370,220 +863,303 @@
   </div>
 
 </section>
-<!-- /Projects -->
 
-      
-  <!-- Achievements -->
-  <section id="achievements" class="services section light-background">
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Achievements</h2>
-      <p>Academic and extracurricular achievements that reflect my interests and strengths.</p>
-    </div>
 
-    <div class="container">
-      <div class="row gy-4">
+<!-- =========================================================
+     ACHIEVEMENTS
+========================================================= -->
 
-        <div class="col-lg-6">
-          <div class="achievement-card">
-            <i class="bi bi-trophy"></i>
-            <h3>Chess Champion</h3>
-            <p><strong>ACLC College of Daet — Intramurals, 2024</strong></p>
-            <p>Achieved first place in a school chess competition, demonstrating strategic thinking, concentration, and problem-solving.</p>
-          </div>
-        </div>
+<section id="achievements"
+         class="services section light-background">
 
-        <div class="col-lg-6">
-          <div class="achievement-card">
-            <i class="bi bi-trophy"></i>
-            <h3>Rubik's Cube Champion</h3>
-            <p><strong>Mabini Colleges, Inc. — College Days, 2025</strong></p>
-            <p>Achieved first place in a school Rubik's Cube competition, demonstrating logical thinking, patience, and persistence.</p>
-          </div>
-        </div>
 
-        <div class="col-lg-6">
-          <div class="achievement-card">
-            <i class="bi bi-mortarboard"></i>
-            <h3>Honor Student</h3>
-            <p><strong>ACLC College of Daet — 2022–2024</strong></p>
-            <p>Recognized for strong academic performance throughout Senior High School.</p>
-          </div>
-        </div>
+  <div class="container section-title"
+       data-aos="fade-up">
 
-        <div class="col-lg-6">
-          <div class="achievement-card">
-            <i class="bi bi-award"></i>
-            <h3>Dean's List Applicant</h3>
-            <p><strong>Mabini Colleges, Inc. — 1st Semester, AY 2026–2027</strong></p>
-            <p>Applied for Dean's List recognition based on academic performance.</p>
-          </div>
-        </div>
+    <h2>
+      Achievements
+    </h2>
 
-      </div>
-    </div>
-  </section>
-
-  <!-- Certificates Section -->
-<section id="certificates" class="portfolio section light-background">
-
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Certificates</h2>
     <p>
-      Selected certificates and recognitions from my academic, extracurricular,
-      and work immersion experiences.
+
+      Academic and extracurricular achievements that reflect
+      my analytical thinking, discipline, and persistence.
+
     </p>
+
   </div>
+
 
   <div class="container">
 
-    <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
-
-      <!-- Best in Work Immersion -->
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio-content h-100">
-
-          <img src="img/certificates/best-work-immersion.jpg"
-               class="img-fluid"
-               alt="Best in Work Immersion Certificate">
-
-          <div class="portfolio-info">
-            <h4>Best in Work Immersion</h4>
-            <p>Certificate of Academic Excellence</p>
-
-            <a href="img/certificates/best-work-immersion.jpg"
-               title="Best in Work Immersion"
-               data-gallery="certificates-gallery"
-               class="glightbox preview-link">
-
-              <i class="bi bi-zoom-in"></i>
-
-            </a>
-          </div>
-
-        </div>
-      </div>
-      <!-- End Best in Work Immersion -->
+    <div class="row gy-4">
 
 
-      <!-- Work Immersion Completion -->
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio-content h-100">
+      <!-- Chess -->
+      <div class="col-lg-6">
 
-          <img src="img/certificates/work-immersion-completion.jpg"
-               class="img-fluid"
-               alt="Work Immersion Certificate of Completion">
+        <div class="achievement-card">
 
-          <div class="portfolio-info">
-            <h4>Work Immersion Completion</h4>
-            <p>Certificate of Completion</p>
+          <i class="bi bi-trophy"></i>
 
-            <a href="img/certificates/work-immersion-completion.jpg"
-               title="Work Immersion Completion"
-               data-gallery="certificates-gallery"
-               class="glightbox preview-link">
+          <h3>
+            Chess Champion
+          </h3>
 
-              <i class="bi bi-zoom-in"></i>
+          <p>
+            <strong>
+              ACLC College of Daet — Intramurals, 2024
+            </strong>
+          </p>
 
-            </a>
-          </div>
+          <p>
+
+            Achieved first place in a school chess competition,
+            demonstrating strategic thinking, concentration,
+            and problem-solving.
+
+          </p>
 
         </div>
+
       </div>
-      <!-- End Work Immersion Completion -->
-
-
-      <!-- High Honors -->
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio-content h-100">
-
-          <img src="img/certificates/high-honors.jpg"
-               class="img-fluid"
-               alt="High Honors Certificate">
-
-          <div class="portfolio-info">
-            <h4>With High Honors</h4>
-            <p>Certificate of Academic Excellence</p>
-
-            <a href="img/certificates/high-honors.jpg"
-               title="With High Honors"
-               data-gallery="certificates-gallery"
-               class="glightbox preview-link">
-
-              <i class="bi bi-zoom-in"></i>
-
-            </a>
-          </div>
-
-        </div>
-      </div>
-      <!-- End High Honors -->
-
-
-      <!-- Chess Champion -->
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio-content h-100">
-
-          <img src="img/certificates/chess-champion.jpg"
-               class="img-fluid"
-               alt="Chess Champion Certificate">
-
-          <div class="portfolio-info">
-            <h4>Chess Champion</h4>
-            <p>Certificate of Achievement</p>
-
-            <a href="img/certificates/chess-champion.jpg"
-               title="Chess Champion"
-               data-gallery="certificates-gallery"
-               class="glightbox preview-link">
-
-              <i class="bi bi-zoom-in"></i>
-
-            </a>
-          </div>
-
-        </div>
-      </div>
-      <!-- End Chess Champion -->
 
 
       <!-- Rubik's Cube -->
+      <div class="col-lg-6">
+
+        <div class="achievement-card">
+
+          <i class="bi bi-trophy"></i>
+
+          <h3>
+            Rubik's Cube Champion
+          </h3>
+
+          <p>
+            <strong>
+              Mabini Colleges, Inc. — College Days, 2025
+            </strong>
+          </p>
+
+          <p>
+
+            Achieved first place in a school Rubik's Cube
+            competition, demonstrating logical thinking,
+            patience, and persistence.
+
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Honor Student -->
+      <div class="col-lg-6">
+
+        <div class="achievement-card">
+
+          <i class="bi bi-mortarboard"></i>
+
+          <h3>
+            Honor Student
+          </h3>
+
+          <p>
+            <strong>
+              ACLC College of Daet — 2022–2024
+            </strong>
+          </p>
+
+          <p>
+
+            Recognized for strong academic performance
+            throughout Senior High School.
+
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Dean's List -->
+      <div class="col-lg-6">
+
+        <div class="achievement-card">
+
+          <i class="bi bi-award"></i>
+
+          <h3>
+            Dean's List Applicant
+          </h3>
+
+          <p>
+            <strong>
+              Mabini Colleges, Inc. — 1st Semester,
+              AY 2026–2027
+            </strong>
+          </p>
+
+          <p>
+
+            Applied for Dean's List recognition based on
+            academic performance.
+
+          </p>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     CERTIFICATES
+========================================================= -->
+
+<section id="certificates"
+         class="portfolio section light-background">
+
+
+  <div class="container section-title"
+       data-aos="fade-up">
+
+    <h2>
+      Certificates
+    </h2>
+
+    <p>
+
+      Certifications and recognitions related to data analysis,
+      technology, academics, and professional development.
+
+    </p>
+
+  </div>
+
+
+  <div class="container">
+
+
+    <div class="row gy-4"
+         data-aos="fade-up"
+         data-aos-delay="100">
+
+
+      <!-- =================================================
+           DATA ANALYST 101
+      ================================================== -->
+
       <div class="col-lg-4 col-md-6">
+
         <div class="portfolio-content h-100">
 
-          <img src="img/certificates/rubiks-cube.jpg"
+
+          <img src="img/certificates/Data Analyst 101.jpg"
                class="img-fluid"
-               alt="Rubik's Cube Certificate">
+               alt="Data Analyst 101 Certificate">
+
 
           <div class="portfolio-info">
-            <h4>Rubik's Cube Recognition</h4>
-            <p>Certificate of Recognition</p>
 
-            <a href="img/certificates/rubiks-cube.jpg"
-               title="Rubik's Cube Recognition"
+            <h4>
+              Data Analyst 101
+            </h4>
+
+            <p>
+              Certificate of Completion
+            </p>
+
+
+            <a href="img/certificates/Data Analyst 101.jpg"
+               title="Data Analyst 101"
                data-gallery="certificates-gallery"
                class="glightbox preview-link">
 
               <i class="bi bi-zoom-in"></i>
 
             </a>
+
           </div>
 
         </div>
+
       </div>
-      <!-- End Rubik's Cube -->
 
 
-      <!-- Algorithms and Complexity -->
+      <!-- =================================================
+           USE AI DATA ANALYSIS
+      ================================================== -->
+
       <div class="col-lg-4 col-md-6">
+
         <div class="portfolio-content h-100">
+
+
+          <img src="img/certificates/Use AI Data Analysis.jpg"
+               class="img-fluid"
+               alt="Use AI Data Analysis Certificate">
+
+
+          <div class="portfolio-info">
+
+            <h4>
+              Use AI Data Analysis
+            </h4>
+
+            <p>
+              Certificate of Completion
+            </p>
+
+
+            <a href="img/certificates/Use AI Data Analysis.jpg"
+               title="Use AI Data Analysis"
+               data-gallery="certificates-gallery"
+               class="glightbox preview-link">
+
+              <i class="bi bi-zoom-in"></i>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- =================================================
+           ALGORITHMS AND COMPLEXITY
+      ================================================== -->
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="portfolio-content h-100">
+
 
           <img src="img/certificates/algorithms-excellence.jpg"
                class="img-fluid"
                alt="Algorithms and Complexity Certificate">
 
+
           <div class="portfolio-info">
-            <h4>Algorithms and Complexity</h4>
-            <p>Certificate of Excellence</p>
+
+            <h4>
+              Algorithms and Complexity
+            </h4>
+
+            <p>
+              Certificate of Excellence
+            </p>
+
 
             <a href="img/certificates/algorithms-excellence.jpg"
                title="Algorithms and Complexity"
@@ -593,24 +1169,243 @@
               <i class="bi bi-zoom-in"></i>
 
             </a>
+
           </div>
 
         </div>
+
       </div>
-      <!-- End Algorithms and Complexity -->
 
 
-      <!-- Quiz Bee -->
+      <!-- =================================================
+           HIGH HONORS
+      ================================================== -->
+
       <div class="col-lg-4 col-md-6">
+
         <div class="portfolio-content h-100">
+
+
+          <img src="img/certificates/high-honors.jpg"
+               class="img-fluid"
+               alt="High Honors Certificate">
+
+
+          <div class="portfolio-info">
+
+            <h4>
+              With High Honors
+            </h4>
+
+            <p>
+              Certificate of Academic Excellence
+            </p>
+
+
+            <a href="img/certificates/high-honors.jpg"
+               title="With High Honors"
+               data-gallery="certificates-gallery"
+               class="glightbox preview-link">
+
+              <i class="bi bi-zoom-in"></i>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- =================================================
+           BEST IN WORK IMMERSION
+      ================================================== -->
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="portfolio-content h-100">
+
+
+          <img src="img/certificates/best-work-immersion.jpg"
+               class="img-fluid"
+               alt="Best in Work Immersion Certificate">
+
+
+          <div class="portfolio-info">
+
+            <h4>
+              Best in Work Immersion
+            </h4>
+
+            <p>
+              Certificate of Academic Excellence
+            </p>
+
+
+            <a href="img/certificates/best-work-immersion.jpg"
+               title="Best in Work Immersion"
+               data-gallery="certificates-gallery"
+               class="glightbox preview-link">
+
+              <i class="bi bi-zoom-in"></i>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- =================================================
+           WORK IMMERSION COMPLETION
+      ================================================== -->
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="portfolio-content h-100">
+
+
+          <img src="img/certificates/work-immersion-completion.jpg"
+               class="img-fluid"
+               alt="Work Immersion Certificate of Completion">
+
+
+          <div class="portfolio-info">
+
+            <h4>
+              Work Immersion Completion
+            </h4>
+
+            <p>
+              Certificate of Completion
+            </p>
+
+
+            <a href="img/certificates/work-immersion-completion.jpg"
+               title="Work Immersion Completion"
+               data-gallery="certificates-gallery"
+               class="glightbox preview-link">
+
+              <i class="bi bi-zoom-in"></i>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- =================================================
+           CHESS
+      ================================================== -->
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="portfolio-content h-100">
+
+
+          <img src="img/certificates/chess-champion.jpg"
+               class="img-fluid"
+               alt="Chess Champion Certificate">
+
+
+          <div class="portfolio-info">
+
+            <h4>
+              Chess Champion
+            </h4>
+
+            <p>
+              Certificate of Achievement
+            </p>
+
+
+            <a href="img/certificates/chess-champion.jpg"
+               title="Chess Champion"
+               data-gallery="certificates-gallery"
+               class="glightbox preview-link">
+
+              <i class="bi bi-zoom-in"></i>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- =================================================
+           RUBIK'S CUBE
+      ================================================== -->
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="portfolio-content h-100">
+
+
+          <img src="img/certificates/rubiks-cube.jpg"
+               class="img-fluid"
+               alt="Rubik's Cube Certificate">
+
+
+          <div class="portfolio-info">
+
+            <h4>
+              Rubik's Cube Recognition
+            </h4>
+
+            <p>
+              Certificate of Recognition
+            </p>
+
+
+            <a href="img/certificates/rubiks-cube.jpg"
+               title="Rubik's Cube Recognition"
+               data-gallery="certificates-gallery"
+               class="glightbox preview-link">
+
+              <i class="bi bi-zoom-in"></i>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- =================================================
+           QUIZ BEE
+      ================================================== -->
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="portfolio-content h-100">
+
 
           <img src="img/certificates/quiz-bee.jpg"
                class="img-fluid"
                alt="Quiz Bee Certificate">
 
+
           <div class="portfolio-info">
-            <h4>Quiz Bee Recognition</h4>
-            <p>Certificate of Recognition</p>
+
+            <h4>
+              Quiz Bee Recognition
+            </h4>
+
+            <p>
+              Certificate of Recognition
+            </p>
+
 
             <a href="img/certificates/quiz-bee.jpg"
                title="Quiz Bee Recognition"
@@ -620,145 +1415,423 @@
               <i class="bi bi-zoom-in"></i>
 
             </a>
+
           </div>
 
         </div>
+
       </div>
-      <!-- End Quiz Bee -->
+
 
     </div>
 
   </div>
 
 </section>
-<!-- /Certificates Section -->
-  
-  <!-- Resume -->
-  <section id="resume" class="resume section">
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Resume</h2>
-      <p>A summary of my education, experience, skills, and qualifications.</p>
-    </div>
 
-    <div class="container">
-      <div class="row">
 
-        <div class="col-lg-6">
-          <h3 class="resume-title">Education</h3>
+<!-- =========================================================
+     RESUME
+========================================================= -->
 
-          <div class="resume-item">
-            <h4>Bachelor of Science in Computer Science</h4>
-            <h5>2024 – Present</h5>
-            <p><em>Mabini Colleges, Inc.</em></p>
-          </div>
+<section id="resume"
+         class="resume section">
 
-          <div class="resume-item">
-            <h4>Senior High School — TVL-ICT</h4>
-            <h5>2022 – 2024</h5>
-            <p><em>ACLC College of Daet</em></p>
-          </div>
 
-          <div class="resume-item">
-            <h4>Junior High School</h4>
-            <h5>2018 – 2022</h5>
-            <p><em>Moreno Integrated School</em></p>
-          </div>
+  <div class="container section-title"
+       data-aos="fade-up">
+
+    <h2>
+      Resume
+    </h2>
+
+    <p>
+
+      A summary of my education, experience, technical
+      skills, and qualifications.
+
+    </p>
+
+  </div>
+
+
+  <div class="container">
+
+
+    <div class="row">
+
+
+      <!-- EDUCATION -->
+      <div class="col-lg-6">
+
+
+        <h3 class="resume-title">
+          Education
+        </h3>
+
+
+        <div class="resume-item">
+
+          <h4>
+            Bachelor of Science in Computer Science
+          </h4>
+
+          <h5>
+            2024 – Present
+          </h5>
+
+          <p>
+            <em>
+              Mabini Colleges, Inc.
+            </em>
+          </p>
+
         </div>
 
-        <div class="col-lg-6">
-          <h3 class="resume-title">Experience</h3>
 
-          <div class="resume-item">
-            <h4>Project-Based Web Designer</h4>
-            <h5>2025 – 2026</h5>
-            <ul>
-              <li>Developed a website based on client requirements and business needs.</li>
-              <li>Organized website content to improve usability and presentation.</li>
-              <li>Applied HTML, CSS, and web development principles.</li>
-              <li>Adjusted the website based on client feedback and requirements.</li>
-            </ul>
-          </div>
+        <div class="resume-item">
+
+          <h4>
+            Senior High School — TVL-ICT
+          </h4>
+
+          <h5>
+            2022 – 2024
+          </h5>
+
+          <p>
+            <em>
+              ACLC College of Daet
+            </em>
+          </p>
+
+        </div>
+
+
+        <div class="resume-item">
+
+          <h4>
+            Junior High School
+          </h4>
+
+          <h5>
+            2018 – 2022
+          </h5>
+
+          <p>
+            <em>
+              Moreno Integrated School
+            </em>
+          </p>
+
+        </div>
+
+
+      </div>
+
+
+      <!-- EXPERIENCE -->
+      <div class="col-lg-6">
+
+
+        <h3 class="resume-title">
+          Experience
+        </h3>
+
+
+        <div class="resume-item">
+
+          <h4>
+            Project-Based Web Designer
+          </h4>
+
+          <h5>
+            2025 – 2026
+          </h5>
+
+
+          <ul>
+
+            <li>
+              Developed a website based on client requirements
+              and business needs.
+            </li>
+
+            <li>
+              Organized website content to improve usability
+              and presentation.
+            </li>
+
+            <li>
+              Applied HTML, CSS, and web development principles.
+            </li>
+
+            <li>
+              Adjusted the website based on client feedback
+              and requirements.
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <h3 class="resume-title">
+          Data &amp; Analytics Development
+        </h3>
+
+
+        <div class="resume-item">
+
+          <h4>
+            Independent Data Analytics Learning
+          </h4>
+
+          <h5>
+            2026 – Present
+          </h5>
+
+
+          <ul>
+
+            <li>
+              Developing foundational skills in data analysis,
+              SQL, and Microsoft Excel.
+            </li>
+
+            <li>
+              Studying data cleaning, organization, analysis,
+              and interpretation.
+            </li>
+
+            <li>
+              Completed introductory training related to
+              Data Analysis.
+            </li>
+
+            <li>
+              Exploring the use of AI tools in data analysis.
+            </li>
+
+          </ul>
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+    <!-- Resume Button -->
+    <div class="text-center mt-4">
+
+      <a href="Resume ko.pdf"
+         class="btn btn-primary"
+         target="_blank">
+
+        <i class="bi bi-file-earmark-pdf"></i>
+        View Full Resume
+
+      </a>
+
+    </div>
+
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     CONTACT
+========================================================= -->
+
+<section id="contact"
+         class="contact section light-background">
+
+
+  <div class="container section-title"
+       data-aos="fade-up">
+
+    <h2>
+      Contact
+    </h2>
+
+    <p>
+
+      I am open to Data Analyst practicum opportunities
+      and professional learning experiences.
+
+    </p>
+
+  </div>
+
+
+  <div class="container"
+       data-aos="fade-up"
+       data-aos-delay="100">
+
+
+    <div class="row gy-4">
+
+
+      <!-- Location -->
+      <div class="col-lg-4">
+
+        <div class="contact-card">
+
+          <i class="bi bi-geo-alt"></i>
+
+          <h3>
+            Location
+          </h3>
+
+          <p>
+            Daet, Camarines Norte, Philippines
+          </p>
+
         </div>
 
       </div>
 
-      <div class="text-center mt-4">
-        <!-- Put your actual resume PDF filename here when ready -->
-        <a href="Resume ko.pdf" class="btn btn-primary" target="_blank">
-          <i class="bi bi-file-earmark-pdf"></i> View Full Resume
-        </a>
-      </div>
-    </div>
-  </section>
 
-  <!-- Contact -->
-  <section id="contact" class="contact section light-background">
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Contact</h2>
-      <p>I'm open to practicum opportunities and professional learning experiences.</p>
-    </div>
+      <!-- Email -->
+      <div class="col-lg-4">
 
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-      <div class="row gy-4">
+        <div class="contact-card">
 
-        <div class="col-lg-4">
-          <div class="contact-card">
-            <i class="bi bi-geo-alt"></i>
-            <h3>Location</h3>
-            <p>Daet, Camarines Norte, Philippines</p>
-          </div>
-        </div>
+          <i class="bi bi-envelope"></i>
 
-        <div class="col-lg-4">
-          <div class="contact-card">
-            <i class="bi bi-envelope"></i>
-            <h3>Email</h3>
-            <p><a href="mailto:albertnaing22@gmail.com">albertnaing22@gmail.com</a></p>
-          </div>
-        </div>
+          <h3>
+            Email
+          </h3>
 
-        <div class="col-lg-4">
-          <div class="contact-card">
-            <i class="bi bi-phone"></i>
-            <h3>Phone</h3>
-            <p>09686172063</p>
-          </div>
+          <p>
+
+            <a href="mailto:albertnaing22@gmail.com">
+              albertnaing22@gmail.com
+            </a>
+
+          </p>
+
         </div>
 
       </div>
+
+
+      <!-- Phone -->
+      <div class="col-lg-4">
+
+        <div class="contact-card">
+
+          <i class="bi bi-phone"></i>
+
+          <h3>
+            Phone
+          </h3>
+
+          <p>
+            09686172063
+          </p>
+
+        </div>
+
+      </div>
+
+
     </div>
-  </section>
+
+  </div>
+
+</section>
+
 
 </main>
 
-<footer id="footer" class="footer position-relative light-background">
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer id="footer"
+        class="footer position-relative light-background">
+
+
   <div class="container">
+
+
     <div class="copyright text-center">
-      <p>© <span>2026</span> <strong class="px-1 sitename">Albert Krian D. Naing</strong> All Rights Reserved</p>
+
+      <p>
+
+        © <span>2026</span>
+
+        <strong class="px-1 sitename">
+          Albert Krian D. Naing
+        </strong>
+
+        All Rights Reserved
+
+      </p>
+
     </div>
+
+
     <div class="credits text-center">
-      Portfolio for academic and practicum purposes.
+
+      Portfolio for academic and Data Analyst practicum purposes.
+
     </div>
+
+
   </div>
+
 </footer>
 
-<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+
+<!-- Scroll Top -->
+<a href="#"
+   id="scroll-top"
+   class="scroll-top d-flex align-items-center justify-content-center">
+
   <i class="bi bi-arrow-up-short"></i>
+
 </a>
 
+
+<!-- Preloader -->
 <div id="preloader"></div>
 
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 <script src="vendor/php-email-form/validate.js"></script>
+
 <script src="vendor/aos/aos.js"></script>
+
 <script src="vendor/typed.js/typed.umd.js"></script>
+
 <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+
 <script src="vendor/waypoints/noframework.waypoints.js"></script>
+
 <script src="vendor/glightbox/js/glightbox.min.js"></script>
+
 <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+
 <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
 <script src="vendor/swiper/swiper-bundle.min.js"></script>
+
 <script src="js/main.js"></script>
 
+
 </body>
+
 </html>
